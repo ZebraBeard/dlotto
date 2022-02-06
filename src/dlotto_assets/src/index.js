@@ -9,7 +9,8 @@ document.querySelector("form").addEventListener("submit", async (e) => {
   button.setAttribute("disabled", true);
 
   // Interact with foo actor, calling the greet method
-  const greeting = await dlotto.greet(name);
+  // const greeting = await dlotto.generateNumber();
+  const greeting = await dlotto.generateNumbersArray();
 
   button.removeAttribute("disabled");
 
