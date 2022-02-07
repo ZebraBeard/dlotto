@@ -1,0 +1,5 @@
+service : {
+  generateNumber: () -> (nat);
+  generateNumbersArray: (nat) -> (vec nat);
+  generateWinningNumbers: () -> (vec nat);
+}
